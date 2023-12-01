@@ -1,0 +1,497 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    position: relative;
+    top: -10px;
+    right: -4px;
+    width: 1366px;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid;
+    box-shadow: 4px 2px 4px grey;
+}
+.nav h1{
+    position: relative;
+    left: 42px;
+    width: 91px;
+    height: 64px;
+    font-size: 50px;
+    top: -27px;
+}
+.ul{
+    height: 62px;
+}
+
+.ul li{
+    height: 30px;
+    
+}
+.ul ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    position: relative;
+    top: 15px;
+    right: 40px;
+    font-size: 21px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav2{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 263px;
+    justify-content: center;
+    width: 490px;
+    left: 436px;
+    height: 48px;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: overline;
+}
+.h1{
+    height: 48px;
+    width: 490px;
+}
+.p1{
+    display: flex;
+    flex-wrap: wrap;
+    top: 300px;
+    position: relative;
+    left: 17%;
+    font-size: 26px;
+    width: 981px;
+    height: 76px;
+}
+.p1 p{
+    position: relative;
+    left: 315px;
+    height: 39px;
+    width: 273px;
+    top: -20px;
+}
+.btn1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 106px;
+    height: 39px;
+    position: relative;
+    top: 340px;
+    left: 47%;
+}
+.btn1 button{
+    width: 106px;
+    height: 39px;
+    border: 1px solid #6d1313b5;
+    background-color: #6d1313b5;
+    border-radius: 10px;
+}
+.fips1{
+    background-color: beige;
+    width: 300px;
+    height: 309px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 380px;
+    left:198px;
+}
+.fips1 img{
+    width: 300px;
+    height: 309px;
+    top: 380px;
+    left: 25px;
+}
+.fips2{
+    background-color: beige;
+    width: 300px;
+    height: 309px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 533px;
+    top: 47px;
+}
+.fips2 img{
+    width: 300px;
+    height: 309px;
+    /* top: 380px;
+    left: 25px; */
+}
+.fips3{
+    background-color: beige;
+    width: 300px;
+    height: 309px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 867px;
+    top: 549px;
+}
+.fips3 img{
+    width: 300px;
+    height: 309px;
+}
+.head1{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 160px;
+    width: 243px;
+    height: 211px;
+    left: 188px;
+}
+.head1 h2{
+    position: relative;
+    top: -9px;
+    right: 8px;
+    font-size: 40px;
+}
+.p2{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 30%;
+    left: 838px;
+    height: 142px;
+    top: -10px;
+}
+.p2 p{
+    position: relative;
+    top: 30px;
+    height: 63px;
+    width: 400px;
+}
+.head2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 311px;
+    width: 408px;
+    position: absolute;
+    top: 1368px;
+    left: 180px;
+}
+.head2 h1{
+    position: relative;
+    right: 90px;
+    top: 20px;
+    font-size: 40px;
+    width: 180px;
+    height: 160px;
+}
+.head2 p{
+    width: 406px;
+    height: 40px;
+    top: -1px;
+    position: relative;
+}
+.fips4{
+    background-color: beige;
+    width: 542px;
+    height: 515px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    left: 754px;
+    top: 88px;
+}
+.fips4 img{
+    width: 542px;
+    height: 515px;
+}
+.head3{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 210px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    top: 200px;
+    left: 550px;
+}
+.fips5{
+    background-color: aqua;
+    /* background-color: pink; */
+    width: 277px;
+    height: 263px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 50px;
+    position: absolute;
+    top: 1901px;
+}
+.fips5 img{
+    width: 277px;
+    height: 263px;
+}
+.fips6{
+    background-color: bisque;
+    /* background-color: pink; */
+    width: 277px;
+    height: 263px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 360px;
+    position: absolute;
+    top: 1901px;
+}
+.fips6 img{
+    width: 277px;
+    height: 263px;
+}
+.fips7{
+    background-color: blue;
+    width: 277px;
+    height: 263px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 690px;
+    position: absolute;
+    top: 1901px;
+}
+.fips7 img{
+    width: 277px;
+    height: 263px;
+}
+.fips8{
+    background-color: pink;
+    width: 277px;
+    height: 263px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 1000px;
+    position: absolute;
+    top: 1901px;
+}
+.fips8 img{
+    width: 277px;
+    height: 263px;
+}
+.btn2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 106px;
+    height: 39px;
+    position: relative;
+    top: 503px;
+    left: 45%;
+}
+.btn2 button{
+    width: 106px;
+    height: 39px;
+    border: 1px solid #6d1313b5;
+    background-color: #6d1313b5;
+    border-radius: 10px;
+}
+.head4{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 591px;
+    left: 222px;
+    width: 324px;
+    height: 128px;
+}
+.input1{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 540px;
+    left: 630px;
+    width: 460px;
+    height: 40px;
+}
+.input1 label{
+    position: absolute;
+    top: -26px;
+    font-size: 20px;
+}
+#text{
+    width: 460px;
+    padding: 12px;
+    border: none;
+    background-color: gainsboro;
+}
+.input2{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 600px;
+    left: 630px;
+    width: 460px;
+    height: 40px;
+}
+.input2 label{
+    position: absolute;
+    top: -26px;
+    font-size: 20px;
+}
+#last{
+    width: 460px;
+    padding: 12px;
+    border: none;
+    background-color: gainsboro;
+ 
+}
+.input3{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 670px;
+    left: 630px;
+    width: 460px;
+    height: 40px;
+}
+.input3 label{
+    position: absolute;
+    top: -26px;
+    font-size: 20px;
+}
+#mail{
+    width: 460px;
+    padding: 12px;
+    border: none;
+    background-color: gainsboro;
+}
+.input4{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 720px;
+    left: 630px;
+    width: 460px;
+    height: 73px;
+}
+.input4 label{
+    position: absolute;
+    top: -26px;
+    font-size: 20px;
+}
+#textarea{
+    width: 460px;
+    padding: 12px;
+    height: 73px;
+    border: none;
+    background-color: gainsboro;
+}
+.btn3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 106px;
+    height: 39px;
+    position: relative;
+    top: 770px;
+    left: 47%;
+}
+.btn3 button{
+    width: 106px;
+    height: 39px;
+    border: 1px solid #6d1313b5;
+    background-color: #6d1313b5;
+    border-radius: 10px;
+}
+.fips9{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 810px;
+    right: 10px;
+    width: 1351px;
+    height: 280px;
+}
+.fips9 img{
+    width: 1351px;
+    height: 280px;
+}
+.head5{
+    width: 133px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 882px;
+    left: 78px;
+    height: 92px;
+}
+.head6{
+    width: 133px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 793px;
+    left: 521px;
+    height: 153px;
+}
+.head7{
+    width: 250px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 650px;
+    left: 950px;
+}
+.input5{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 489px;
+    top: 681px;
+    left: 830px;
+}
+.input5 label{
+    position: absolute;
+    top: -30px;
+    left: 117px;
+}
+#mail2{
+    position: relative;
+    top: 3px;
+    right: -1px;
+    width: 352px;
+    border: none;
+    background-color: gainsboro;
+    height: 39px;
+}
+.btn4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 106px;
+    height: 139px;
+    position: relative;
+    top: 734px;
+    left: 946px;
+
+}
+.btn4 button{
+    width: 106px;
+    height: 39px;
+    border: 1px solid #6d1313b5;
+    background-color: #6d1313b5;
+    border-radius: 10px;
+}
+
+#tweet{
+    position: relative;
+    top: 630px;
+    left: 41px;
+    font-size: 30px;
+}
+#facebook{
+    position: relative;
+    top: 630px;
+    left: 41px;
+    font-size: 30px;
+}
+#instagram{
+    position: relative;
+    top: 630px;
+    left: 41px;
+    font-size: 30px;
+}

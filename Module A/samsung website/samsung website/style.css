@@ -1,0 +1,453 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container1 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.samsung1 {
+    margin-left: 20px;
+}
+
+.list1 {
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: none;
+}
+
+.list1 li {
+    margin: 16px;
+}
+.li1{
+    height: 45px;
+    position: relative;
+    top: 2px;
+}
+.li2{
+    height: 45px;
+    position: relative;
+    top: 2px;
+}
+.li1:hover {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 69px;
+    color: wheat;
+}
+
+.li2:hover {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 69px;
+    color: wheat;
+}
+
+.samsung2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(images/samsung14.png);
+    /* width: 100%; */
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 53px;
+    align-items: center;
+    height: 145px;
+
+}
+
+.container2 {
+    display: flex
+    ;
+    flex-wrap: wrap;
+}
+/* .cart1 h3{
+    position: absolute;
+    top: 831px;
+    right: 675px;
+    font-size: 34px;
+
+} */
+.cart1 p{
+    position: relative;
+    background: aliceblue;
+    height: 22px;
+    top: 70px;
+    right: 305px;
+    font-size: 19px;
+    border-radius: 11px;
+    width: 82px;
+}
+.cart1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    width: 54%;
+    height: 537px;
+    background-color: #ead4e0;
+    border-radius: 22px;
+    margin-left: 30px;
+}
+
+.cart1 img {
+    position: relative;
+    right: -87px;
+    top: 145px;
+    height: 74%;
+    width: 619px;
+}
+
+.cart2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 36px auto -268px; */
+    width: 19%;
+    height: 261px;
+    background-color: #ead4e0;
+    border-radius: 22px;
+    position: relative;
+    left: -50px;
+    top: 11px;
+}
+
+.cart2 img {
+    position: relative;
+    right: 26px;
+    top: -73px;
+    height: 104%;
+}
+
+.cart3 {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 13px auto 1px -268px; */
+    width: 20%;
+    height: 260px;
+    background-color: #ead4e0;
+    border-radius: 22px;
+    position: relative;
+    left: -26px;
+    top: 11px;
+}
+.cart3 img{    position: relative;
+    right: -11px;
+    top: 21px;
+    height: 71%;
+    left: 27px;
+    width: 206px;}
+
+/* .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 18px 158px
+}
+
+.cart3 img {
+    position: relative;
+    right: -11px;
+    top: 21px;
+    height: 71%;
+    width: 206px;
+} */
+
+.cart4 {
+    flex-wrap: wrap;
+    display: flex;
+    /* margin: 13px auto 1px -268px; */
+    width: 20%;
+    height: 251px;
+    background-color: #ead4e0;
+    border-radius: 22px;
+    position: relative;
+    left:773px;
+    top: -279px;
+}
+
+.cart4 img {
+    position: relative;
+    right: -29px;
+    top: 30px;
+    height: 63%;
+    width: 211px;
+}
+
+.cart5 {
+    flex-wrap: wrap;
+    display: flex;
+    /* margin: 13px auto 1px -268px; */
+    width: 20%;
+    height: 252px;
+    background-color: #ead4e0;
+    border-radius: 22px;
+    position: relative;
+    left: 787px;
+    top: -280px;
+}
+
+.cart5 img {
+    position: relative;
+    right:-20px;
+    top: 4px;
+    height: 92%;
+    width: 220px;
+}
+
+.h1{
+    top: -166px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.list2{
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    position: relative;
+    top: -127px;
+    justify-content: space-evenly;
+    margin: 1px 222px;
+    text-decoration: underline;
+}
+.samsung10{
+    display: flex;
+    width: 550px;
+    height: 270px;
+    position: relative;
+    top: -110px;
+    left: 27%;
+}
+.samsung10 img{
+    left: 0%;
+    position: relative;
+    top: 1px;
+    width: 550px;
+    height: 270px;
+}
+.samsung11{
+    display: flex;
+    flex-wrap: wrap;
+    height: 704px;
+}
+.samsung11 img{
+    width: 100%;
+    height: 41pc;
+}
+.h21{
+    position: relative;
+    top: 60px;
+    left: 568px;
+    font-size: 40px;
+}
+.samsung11 ul{
+    width: 301px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 170px;
+    left: 270px;
+}
+.samsung11 ul li{
+    padding: 0px 5px;
+    list-style: none;
+    word-spacing: 4px;
+    font-size: 22px;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+.li3{
+    position: relative;
+    left: -50px;
+}
+.li4{
+    position: relative;
+    right: -27px;
+}
+.li3:hover{
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+.li4:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+.h22{
+    position: relative;
+    top: -87px;
+    left: 552px;
+    font-size: 35px; 
+}
+.samsung12{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 464px;
+    left: 390px;
+    top: 100px;
+    font-size: 28px;
+}
+.span1{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 483px;
+    left: 399px;
+    top: -480px;
+    font-size: 28px;
+    line-height: 118px;
+    border-top: 2px solid black;
+}
+.span2{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 483px;
+    left: 399px;
+    top: -468px;
+    font-size: 28px;
+    line-height: 118px;
+    border-top: 2px solid black;
+}
+.span3{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 483px;
+    left: 399px;
+    top: -462px;
+    font-size: 28px;
+    line-height:118px;
+    border-top: 2px solid black;
+}
+.samsung12 img {
+    display: flex;
+    flex-wrap: wrap;
+    right: 360px;
+    position: relative;
+    top: 80px;
+    width: 676px;
+    border-radius: 10px;
+    height: 630px;
+}
+.samsung12 h3{
+    font-size: 39px;
+    width: 460px;
+}
+.h23{
+    position: relative;
+    bottom: 51px;
+    left: 438px;
+    width: 540px;
+    font-size: 44px;
+}
+.ii{
+    width: 196px;
+    position: relative;
+    left: 550px;
+}
+.samsung13 input{
+    background-image: url(images/samsung13.png);
+    background-size: 36px;
+    background-repeat: no-repeat;
+    padding-left: 44px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+} 
+.samsung13 ul{
+    display: flex;
+    position: relative;
+    left: 263px;
+    width: 967px;
+    list-style: none;
+    padding: 11px 13px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.li5{
+    border: 1px solid lightgray;
+    padding: 2px 6px;
+    border-radius: 72px;
+    position: relative;
+    top: 11px;
+    right: -180px;
+}
+.li6{
+    border: 1px solid lightgray;
+    padding: 2px 6px;
+    border-radius: 72px;
+    position: relative;
+    top: 11px;
+    right: -180px;
+}
+.li7{
+    border: 1px solid lightgray;
+    padding: 2px 6px;
+    border-radius: 72px;
+    position: relative;
+    top: 11px;
+    right: -180px;
+}
+.li8{
+    border: 1px solid lightgray;
+    padding: 2px 6px;
+    border-radius: 72px;
+    position: relative;
+    top: 11px;
+    right: -190px;
+}
+.li9{
+    border: 1px solid lightgray;
+    padding: 2px 6px;
+    border-radius: 72px;
+    position: relative;
+    top: 52px;
+    right: 290px;
+}
+.li10{
+    border: 1px solid lightgray;
+    padding: 2px 6px;
+    border-radius: 72px;
+    position: relative;
+    top: 52px;
+    right: 290px;
+}
+.li11{
+    border: 1px solid lightgray;
+    padding: 2px 6px;
+    border-radius: 72px;
+    position: relative;
+    top: 52px;
+    right: 290px;
+}
+.footer{
+    position: relative;
+    top: 70px;
+    background-color: darkgrey;
+    border-top: 1px solid black;
+}
+.footer h1{
+    position: relative;
+    left: 41%;
+    width: 260px;
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+    font-family: 'Dancing Script', cursive;
+}

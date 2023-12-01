@@ -1,0 +1,110 @@
+@media only screen and (max-width:540px) {
+    #green{
+        position: relative;
+        left: 38px;
+
+    }
+    #section3{
+        position: relative;
+    top: 520px;
+    }
+    #img1{
+        width: 362px;
+    }
+    #section4{
+        position: relative;
+        top: 519px;
+    }
+    #section5{
+        position: relative;
+        top: 577px;
+
+    }
+    #section6{
+        position: relative;
+    top: 654px;
+    height: 842px;
+    width: 413px;
+    }
+    #row2{
+        position: relative;
+        left: -9px;
+    }
+    #section7{
+        position: relative;
+    top: 856px;
+    }
+    #section9{
+        position: relative;
+        top: 911px;
+        left: -172px;
+        width: 132%;
+    }
+    #section8{
+        position: relative;
+        top: 913px;
+        width: 100%;
+    }
+    #accordionExample{
+        position: relative;
+        left: 217px;
+        width: 430px;
+    }
+  }
+  @media only screen and (max-width:375px) {
+    #green{
+        position: relative;
+        left: 308px;
+        bottom: 95px;
+
+    }
+    #section3{
+        position: relative;
+    top: 520px;
+    }
+    #img1{
+        width: 362px;
+    }
+    #section4{
+        position: relative;
+        top: 519px;
+    }
+    #section5{
+        position: relative;
+        top: 577px;
+
+    }
+    #section6{
+        position: relative;
+    top: 654px;
+    height: 842px;
+    width: 373px;
+    }
+    #row2{
+        position: relative;
+        left: -9px;
+    }
+    #section7{
+        position: relative;
+    top: 856px;
+    }
+    #section9{
+        position: relative;
+        top: 911px;
+        left: -172px;
+        width: 146%;
+    }
+    #section8{
+        position: relative;
+        top: 913px;
+        width: 100%;
+    }
+    #accordionExample{
+        position: relative;
+        left: 184px;
+        width: 330px;
+    }
+    #container-fluid{
+        width: 374px;
+    }
+  }

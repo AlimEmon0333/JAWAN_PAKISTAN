@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605178385758",
+    "project_id": "authentic-android-app",
+    "storage_bucket": "authentic-android-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605178385758:android:a7cc2fa60c16b7570fabcf",
+        "android_client_info": {
+          "package_name": "com.thirdapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApBMI33VQEYlGBEuOgs7EYy4YkursKztM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,153 @@
+@media only screen and (max-width:540px) {
+    #green{
+        position: relative;
+        left: 38px;
+
+    }
+    #section3{
+        position: relative;
+    top: 520px;
+    }
+    #img1{
+        width: 362px;
+    }
+    #section4{
+        position: relative;
+        top: 519px;
+    }
+    #section5{
+        position: relative;
+        top: 577px;
+
+    }
+    #section6{
+        position: relative;
+    top: 654px;
+    height: 842px;
+    width: 413px;
+    }
+    #row2{
+        position: relative;
+        left: -9px;
+    }
+    #section7{
+        position: relative;
+    top: 856px;
+    }
+    #section9{
+        position: relative;
+        top: 911px;
+        left: -172px;
+        width: 132%;
+    }
+    #section8{
+        position: relative;
+        top: 913px;
+        width: 100%;
+    }
+    #accordionExample{
+        position: relative;
+        left: 217px;
+        width: 430px;
+    }
+  }
+  @media only screen and (max-width:414px) {
+      #section1{
+          width: 416px;
+        }
+    #section2{
+        width: 416px;
+    }
+    #section3{
+width: 416px;
+}
+    #section4{
+width: 416px;
+}
+#section5{
+    width: 416px;
+    }
+    #section6{
+        width: 416px;
+    }
+    #section7{
+        width: 416px;
+    }
+    #section8{
+        width: 416px;
+    }
+    #section9{
+        width: 416px;
+    }
+    #section10{
+        width: 416px;
+    }
+    
+}
+@media only screen and (max-width:375px) {
+  #green{
+      position: relative;
+      left: 308px;
+      bottom: 95px;}
+#section1{
+width: 375px;
+}
+#section2{
+    width: 375px;   
+}
+  
+  #section3{
+      position: relative;
+  top: 520px;
+  width: 375px;
+  }
+  #img1{
+      width: 362px;
+  }
+  #section4{
+      position: relative;
+      top: 519px;
+      width: 375px;
+  }
+  #section5{
+      position: relative;
+      top: 577px;
+      width: 375px;
+
+  }
+  #section6{
+      position: relative;
+  top: 654px;
+  height: 842px;
+  width: 375px;
+  }
+  #row2{
+      position: relative;
+      left: -9px;
+  }
+  #section7{
+      position: relative;
+  top: 856px;
+  width: 375px;
+  }
+  #section9{
+      position: relative;
+      top: 911px;
+      left: -172px;
+   width: 547px;
+  }
+  #section8{
+      position: relative;
+      top: 913px;
+      width: 375px;
+  }
+  #accordionExample{
+      position: relative;
+      left: 184px;
+      width: 330px;
+  }
+  #container-fluid{
+      width: 374px;
+  
+}
+}

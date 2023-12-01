@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My personal portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+  <!-- This is navbar -->
+  <header>
+    <nav data-aos="fade-down" style="transition: all 1s" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="Images/portfolio.png" width="150px" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"F
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar end -->
+  <!-- This is our home -->
+  <section class="home" id="home">
+    <div class="container">
+      <div class="row">
+        <div data-aos="flip-up" style="transition: all 1s" class="col-md-6 padding-top">
+          <h3 class="head1 d-flex">Hello</h3>
+          <div class="for-line w-75 bg-secondary"></div>
+          <h1 class="head2">I AM M.ALI</h1>
+          <h4 class="head3">Junior FrontEnd Developer</h4>
+          <button class="btn btn-danger mt-3 me-3 rounded-pill w-25" id="btn-2">
+            Hire Me
+          </button>
+          <button class="btn btn-outline-danger mt-3 rounded-pill w-25" id="btn-1">
+            Get CV
+          </button>
+        </div>
+        <div class="col-md-6">
+          <img data-aos="fade-left" data-aos-delay="300" data-aos-offset="0" src="Images/ali ali.png.jpg" id="image-1"
+            class="image-1 w-100" style="transition: all 1s" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end-home-section -->
+  <!-- begin-about section -->
+  <section id="About" class="About mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 mt-5">
+          <img data-aos="fade-right" style="transition: all 2s" src="Images/ali-2.png.jpg" width="100%" class="img-1"
+            alt="" />
+        </div>
+        <div class="col-md-7 mt-5">
+          <h3 data-aos="fade-down" style="transition: all 2s" class="display-5 mt-5">
+            About Me
+          </h3>
+          <p data-aos="fade-down" style="transition: all 2s">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Consequatur fugit, totam aliquam praesentium beatae eum maiores?
+            Porro voluptas optio beatae, excepturi numquam quae, quam, a minus
+            architecto enim amet labore. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Ipsum ipsa.
+          </p>
+          <div data-aos="flip-up" style="transition: all 2s" class="tab d-flex mt-4 justify-content-around">
+            <p class="tab-title active-link me-5 fw-bold">Skills</p>
+            <p class="tab-title me-5 fw-bold">Experience</p>
+            <p class="tab-title fw-bold">Education</p>
+          </div>
+          <div data-aos="flip-up" style="transition: all 2s" class="skills d-flex justify-content-between">
+            <ul class="list-unstyled text-info">
+              <li class="mb-3 mt-3">Web&App Developer</li>
+              <li class="mb-3">Graphic Designer</li>
+              <li>Video&Photo Editor</li>
+            </ul>
+            <ul class="list-unstyled text-info me-5">
+              <li class="mb-3 mt-3">Free Lance</li>
+              <li class="mb-3">Fiverr</li>
+              <li>Up work</li>
+            </ul>
+            <ul class="list-unstyled text-info me-5 margin-left-10">
+              <li class="mb-3 mt-3">Matric A-level</li>
+              <li class="mb-3">Hafiz-e-quran</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end-about-section -->
+  <!-- begin-my-service-section -->
+  <section class="my-service mt-5" id="myservice">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 data-aos="fade-down" class="head4 me-auto display-5">
+            My Service
+          </h2>
+          <div class="row">
+            <div class="col-md-4 mt-5">
+              <div data-aos="flip-right" class="CART-1">
+                <i class="fa-sharp fa-solid fa-code p-3 fw-bold fs-1"></i>
+                <h4 class="fs-3 fw-bold ps-3 pt-3">Web Development</h4>
+                <p class="pt-3 ps-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  adipisci facilis, laudantium ut optio, corporis. Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Corporis .
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mt-5">
+              <div data-aos="flip-right" class="CART-1">
+                <i class="fa-solid fa-object-group p-3 fw-bold fs-1"></i>
+                <h4 class="fs-3 fw-bold ps-3 pt-3">Web Design</h4>
+                <p class="pt-3 ps-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  adipisci facilis, laudantium ut optio, corporis. Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Corporis .
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 mt-5">
+              <div data-aos="flip-right" class="CART-1">
+                <i class="fa-brands fa-app-store p-3 fw-bold fs-1"></i>
+                <h4 class="fs-3 fw-bold ps-3 pt-3">App Design</h4>
+                <p class="pt-3 ps-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  adipisci facilis, laudantium ut optio, corporis. Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Corporis .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end-my-service-section -->
+  <!-- begin-my-portfolio-section -->
+  <section class="portfolio mt-5 p-5" id="portfolio">
+    <div class="container">
+      <h2 class="head5 fw-bold display-5 mb-5">My Work</h2>
+
+      <div class="work-list">
+        <div class="row">
+          <div class="col-md-4 work mb-5">
+            <img src="Images/Screenshot (38).png" width="100%" />
+            <div class="work-text" id="work-text">
+              <h3>Smart Web</h3>
+              <p>
+                The web connects you to the talented people around the world.
+                Download it from google.
+              </p>
+              <a href="https://landing-page-bootstrap.web.app" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 work mb-5">
+            <img src="Images/Screenshot (39).png" width="100%" />
+            <div class="work-text" id="work-text">
+              <h3>Our Launch</h3>
+              <p>
+                The web connects you to the talented people around the world.
+                Download it from google.
+              </p>
+              <a href="https://launch-page-bootstrap.web.app" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 work mb-5">
+            <img src="Images/Screenshot (40).png" width="100%" />
+            <div class="work-text" id="work-text">
+              <h3>Online Shopping app</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from google.
+              </p>
+              <a href="https://daraz-store.web.app" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end-my-portfolio-section -->
+  <!-- begin-contact-section -->
+  <section class="contact mt-5 " id="Contact">
+    <div class="container">
+      <h1 class="ms-3 p-3">
+        Contact me
+      </h1>
+      <div class="row"></div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

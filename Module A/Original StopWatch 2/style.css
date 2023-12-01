@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+  }
+  body {
+    background-color: rgba(65, 105, 225, 0.533);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .box {
+    height: fit-content;
+    width: fit-content;
+    padding: 30px;
+    background-color: white;
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5px 5px 10px white;
+  }
+  .heading {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  button {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,396 @@
+@import url(media.css);
+
+.container-fluid {
+    position: fixed;
+    z-index: 1;
+    height: 89px;
+}
+
+.firsta {
+    font-size: 29px;
+    position: relative;
+    bottom: -16px;
+    font-weight: bold;
+}
+
+.green {
+    color: #008000b0;
+    position: relative;
+    left: 62px;
+    bottom: 57px;
+}
+
+.input1 {
+    /* background-image: url(IMAGES/2nd\ img.png);
+    background-repeat: no-repeat; */
+    width: 345px;
+    height: 44px;
+    border: none;
+    background-color: #d3d3d366;
+    border-radius: 3px;
+    /* background-size: 74px; */
+    padding: 12px;
+    padding-left: 74px;
+
+}
+
+.input2 {
+    height: 42px;
+    border: navajowhite;
+    background-color: #f10e0ea8;
+    border-radius: 3px;
+}
+
+.section1 {
+    background-color: #f5f7fc;
+    position: relative;
+    top: 88px;
+
+}
+
+.section2 {
+    margin-top: 64px;
+}
+
+.textdiv1 {
+    position: relative;
+    height: 349px;
+    top: 94px;
+}
+
+.sec2div2 {
+    position: relative;
+    top: -9px;
+}
+
+.sec2div1 {
+    position: relative;
+    top: 80px;
+    height: 410px;
+}
+
+.darkgreen {
+    position: relative;
+    /* left: 71px; */
+    height: 72px;
+    font-size: 51px;
+    color: #008000ad;
+}
+
+.cart1 {
+    height: 256px;
+    line-height: 23px;
+    padding: 19px;
+
+}
+
+.cart1:hover {
+    margin-top: 25px;
+    transition: all 2s;
+}
+
+.red {
+    height: 72px;
+    font-size: 51px;
+    color: red;
+}
+
+.blue {
+    height: 72px;
+    font-size: 34px;
+    color: blue;
+}
+
+/* .nav-item a{
+    margin-top: 25px;
+    transition: all 5s;
+} */
+/* .img3rd{
+    width: 200px !important;
+} */
+.section3 {
+    background-color: #f5f7fc;
+}
+
+.navitem .transition a {
+    transition: all 0.5s ease;
+}
+
+.carousel-control-next-icon {
+    /* width: 1037px !important;
+    position: relative;
+    left: 25px; */
+    background-color: black;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    color: black !important;
+    font-size: 16px !important;
+    font-style: italic !important;
+}
+
+.carousel-caption h5 {
+    color: red;
+    color: #e3cfd1c2;
+    font-size: 27px;
+    position: relative;
+    top: 38px;
+    font-weight: bold;
+}
+
+.extragreen {
+    position: relative;
+    left: 201px;
+    top: -43px;
+    font-size: 26px;
+}
+
+.section4 {
+    background-color: #f5f7fc;
+}
+
+.our-patners {
+    margin: 20px 10px 10px 0;
+    padding: 29px 10px;
+    background-color: #fff;
+    box-shadow: rgb(33 33 33 / 6%) 0 4px 24px 5px;
+    border-radius: 8px;
+    /* text-align: center; */
+    transition: all 1s;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.padding-bottom-25 {
+    padding-bottom: 20px !important;
+}
+
+.width-100 {
+    width: 30px !important;
+}
+
+.partners {
+    margin: 20px 10px 10px 0;
+    padding: 29px 10px;
+    background-color: #fff;
+    box-shadow: rgb(33 33 33 / 6%) 0 4px 24px 5px;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.blue {
+    color: blue;
+}
+
+ul.list2 li {
+    list-style: none;
+}
+
+.section5 {
+    position: relative;
+    top: 159px;
+}
+
+.section6 {
+    position: relative;
+    top: 203px;
+    height: 215px;
+    background-color: #f5f7fc;
+}
+
+.cener {
+    text-align: center !important;
+    position: relative;
+    top: 13px;
+    left: 10px;
+
+}
+
+.gift {
+    font-size: 30px;
+    color: #1e90ff;
+}
+
+.row2 {
+    position: relative;
+    top: 35px;
+    left: 89px;
+}
+
+.font {
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 700;
+    /* font-style: normal; */
+    color: #071e55;
+    font-family: 'Nunito', sans-serif;
+}
+
+.heart {
+    font-size: 30px;
+    color: #fc6a3f;
+}
+
+.award {
+    color: #27b36a;
+    font-size: 30px;
+}
+
+.baket {
+    color: #fc6a3f;
+    font-size: 30px;
+}
+
+.bell {
+    color: #fe9c24;
+    font-size: 30px;
+}
+
+.row1 {
+    /* margin-left: 20rem; */
+}
+
+.section7 {
+    position: relative;
+    top: 269px;
+}
+
+.width-1002 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.team-item {
+    padding: 10px 25px 0px 25px;
+    text-align: center !important;
+}
+
+.team-info {
+    display: block;
+}
+
+.team-info {
+    color: #acacac;
+    text-align: center !important;
+}
+
+.style {
+
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #7c8595;
+    font-style: italic;
+}
+
+.team-icon ul li {
+    display: inline-block;
+
+}
+
+.fa-brands,
+.fa-solid {
+
+    font-size: 30px;
+    margin: 9px 23px;
+
+}
+
+.blue2 {
+    color: blue;
+}
+
+.darkblue2 {
+    color: #3b5998;
+}
+
+.pink2 {
+    color: pink;
+
+}
+
+.red2 {
+    color: red;
+}
+.col-md-6-2{    margin-top: 169px;}
+.align-item-center {
+    align-items: center !important;
+
+}
+.section8{
+    position: relative;
+    top: 286px;
+    background-color: #f5f7fc;
+    height: 442px; 
+    width: 50%;
+}
+
+.col-sm-12 p {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.testim-platform.first {
+    display: block;
+    border-right: 1px solid #cecece;
+    height: 57px;
+    width: 150px;
+}
+.testim-platform.second {
+    /* display: block; */
+    /* border-right: 1px solid #cecece; */
+    height: 57px;
+    width: 150px;
+}
+
+.testim-platform p {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #071e55;
+}
+
+.testim-rating {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.fa-regular {
+    color: #fdcc28;
+}
+
+.section9{
+    background-color: #f5f7fc;
+    width: 50%;
+    position: absolute;
+    top: 3603px;
+    left: 672px;
+    height: 442px;
+}
+.green2{
+    color: green;
+}
+.acordian{
+    width:572px;position: relative;top: 40px;
+}

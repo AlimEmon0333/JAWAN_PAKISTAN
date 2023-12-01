@@ -1,0 +1,182 @@
+@media only screen and (max-width: 1024px) {
+    #idofli1 {
+        font-size: 27px;
+        margin-top: -10px;
+    }
+
+    #idofli2 {
+        font-size: 27px;
+        margin-top: -10px;
+    }
+
+    #idofsamsung2 {
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url(images/samsung14.png);
+        height: 117vh;
+        width: 126vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #idoflist1 {
+        margin-right: -240px;
+    }
+
+    #idofhead1 {
+        margin-left: 230px;
+        font-size: 57px;
+        font-weight: bold;
+    }
+
+    #idofcontainer2 {
+        width: 1284px;
+    }
+
+    #idofcart1 {
+        width: 619px;
+        position: relative;
+    }
+
+    #idofcart1 img {
+        position: relative;
+        right: 3px;
+        top: 13px;
+    }
+
+    #idofcart2 {
+        position: relative;
+        right: 9px;
+        width: 291px;
+    }
+
+    #idofcart3 {
+        position: relative;
+        left: 824px;
+        width: 291px;
+    }
+
+    #idofcart3 img {
+        position: relative;
+        left: 12px;
+        width: 252px;
+        height: 240px;
+    }
+
+    #idofcart4 {
+        position: relative;
+        left: 228px;
+        width: 296px;
+    }
+
+    /* #idofcart4 img{
+
+    } */
+
+    #idofcart5 {
+        position: relative;
+        left: 827px;
+        top: -560px;
+        width: 291px;
+    }
+
+    #idofcart5 img {
+        position: relative;
+        left: 9px;
+        width: 290px;
+    }
+
+    #idofh1 {
+        position: relative;
+        top: -531px;
+        left: 140px;
+        font-size: 85px;
+    }
+
+    #idoflist2 {
+        margin-top: -367px;
+        width: 1249px;
+        margin-left: 12px;
+        font-size: 29px;
+        text-decoration: none;
+    }
+
+    #idofuli1 {
+        text-decoration: overline;
+    }
+
+    #idofuli4 {
+        display: none;
+    }
+
+    #idofuli5 {
+        display: none;
+    }
+
+    #idofsamsung10 {
+        margin-left: 45px;
+        width: 665px;
+        height: 324px;
+    }
+
+    #idofsamsung10 img {
+        margin-left: -1px;
+        width: 665px;
+        height: 324px;
+    }
+
+    #idofsamsung11 {
+        width: 126vw;
+        margin-top: -62px;
+        height: 740px;
+    }
+
+    #idofh23 {
+        width: 770px;
+        margin-left: -185px;
+        font-size: 60px;
+        margin-top: -42px;
+    }
+
+    #idofii input {
+        width: 900px;
+        margin-left: -360px;
+    }
+
+    #idofsamsung13 ul {
+        margin-left: -150px;
+    }
+
+    #idofli5 {
+        font-size: 23px;
+    }
+
+    #idofli6 {
+        font-size: 23px;
+    }
+
+    #idofli7 {
+        font-size: 23px;
+    }
+
+    #idofli8 {
+        font-size: 23px;
+    }
+
+    #idofli9 {
+        font-size: 23px;
+    }
+
+    #idofli10 {
+        font-size: 23px;
+    }
+
+    #idofli11 {
+        display: none;
+    }
+
+    #idoffooter {
+        width: 1290px;
+    }
+
+}
